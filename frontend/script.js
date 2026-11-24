@@ -5,9 +5,9 @@ const t=input.value.trim();
 if(!t)return;
 add('YOU: '+t,'user');
 input.value='';
-add('J.A.R.V.I.S: Processing...','ai');
+add('F.R.I.D.A.Y: Processing...','ai');
 setTimeout(()=>{
-chat.lastChild.innerText='J.A.R.V.I.S: Systems online. How may I assist you, Boss?';
+chat.lastChild.innerText='F.R.I.D.A.Y: Systems online. How may I assist you, Boss?';
 },1000);
 };
 function add(text,who){
